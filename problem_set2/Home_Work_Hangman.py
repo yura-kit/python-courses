@@ -20,8 +20,6 @@ def hangman():
 
     word = choose_random_word(read_words())
 
-    print(word)
-
     guess_word = ['_']*len(word)
     available_letters = 'abcdefghijklmnopqrstuvwxyz'
     pressed_letters = set()
