@@ -24,7 +24,7 @@ def hangman():
     available_letters = 'abcdefghijklmnopqrstuvwxyz'
     pressed_letters = set()
 
-    print('Welcome to the game, Hangman! \nI am thinking of a word that is %i \n letters long.' % len(word))
+    print('Welcome to the game, Hangman! \nI am thinking of a word that is %i letters long.' % len(word))
     print('-'*6)
 
     counter = 0
