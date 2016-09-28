@@ -18,7 +18,10 @@ def choose_random_word(words):
 
 def hangman():
 
-    word = 'qwequutq'
+    word = choose_random_word(read_words())
+
+    print(word)
+
     guess_word = ['_']*len(word)
     available_letters = 'abcdefghijklmnopqrstuvwxyz'
     pressed_letters = set()
