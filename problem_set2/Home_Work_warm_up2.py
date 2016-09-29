@@ -2,7 +2,7 @@ import math
 
 vowels = ('a', 'e', 'i', 'o',  'u')
 
-
+# just some comment
 def is_vovel(char):
     return (char.lower() in vowels)
 
